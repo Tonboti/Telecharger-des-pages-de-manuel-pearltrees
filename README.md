@@ -1,4 +1,4 @@
-##### Vous en avez marre de ne pas pouvoir télécharger les pages de manuel disponibles sur _Pearltrees_?
+### Vous en avez marre de ne pas pouvoir télécharger les pages de manuel disponibles sur _Pearltrees_?
 Ca tombe bien, ***la** solution* est ici!
 
 Il vous suffit :
