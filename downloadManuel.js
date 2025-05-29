@@ -34,15 +34,18 @@ async function downloadImagePearltrees() {
 	
 }
 
-var nbPerles = 5;
-var intervalle = 500;
-for (let i=0; i<nbPerles; i++) {
-	window.setTimeout(() => {
-		downloadImagePearltrees();
-		document.querySelector(".button.next.sprite-reader-next").click();
-	}
-	, intervalle * i)
-}
+
+// Script a executer dans la console pour telecharger plusieurs images a la fois en changeant d'image vers la droite a chaque fois
+// Pour qu'il marche il faut deja avoir mis la definition de la fonction downloadImagePearltrees dans la console
+// var nbPerles = 5;
+// var intervalle = 500;
+// for (let i=0; i<nbPerles; i++) {
+// 	window.setTimeout(() => {
+// 		downloadImagePearltrees();
+// 		document.querySelector(".button.next.sprite-reader-next").click();
+// 	}
+// 	, intervalle * i)
+// }
 
 function addDownloadButton () {
 	const buttonContainers = document.querySelectorAll(".header-container .information-bar .node-action-bar div");
